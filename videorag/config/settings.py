@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 from dataclasses import dataclass
+
 from dotenv import load_dotenv
 
 load_dotenv()  # loads .env into the process env
@@ -17,7 +18,6 @@ class Settings:
 
     @property
     def sqlalchemy_url(self) -> str:
-        # psycopg (v3) driver
         return (
             f"postgresql+psycopg://{self.pg_user}:{self.pg_password}"
             f"@{self.pg_host}:{self.pg_port}/{self.pg_db}"
@@ -34,4 +34,7 @@ def get_settings() -> Settings:
     if not password:
         raise RuntimeError("PGPASSWORD is not set")
 
-    return Settings(pg_host=host, pg_port=port, pg_db=db, pg_user=user, pg_password=password)
+    return Settings(
+        pg_host=host, pg_port=port, pg_db=db, pg_user=user, pg_password=password
+    )
+
