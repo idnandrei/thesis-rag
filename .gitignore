@@ -11,3 +11,6 @@ wheels/
 
 # Data (DO NOT COMMIT)
 data/
+
+
+.DS_Store
