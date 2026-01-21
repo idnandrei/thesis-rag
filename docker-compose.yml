@@ -1,0 +1,15 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: thesis_rag_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: videorag
+    ports:
+      - "5431:5432"
+    volumes:
+      - thesis_rag_pgdata:/var/lib/postgresql/data
+
+volumes:
+  thesis_rag_pgdata:
