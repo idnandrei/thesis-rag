@@ -1,37 +1,17 @@
 from __future__ import annotations
 
 import json
-import os
 from pathlib import Path
 
-from dotenv import load_dotenv
 import psycopg
 
-load_dotenv()  # ← THIS loads .env into os.environ
-
-
-def _env(name: str, default: str | None = None) -> str | None:
-    return os.getenv(name, default)
+from videorag.config.settings import get_settings
 
 
 def main() -> None:
-    host = _env("PGHOST", "localhost")
-    port = int(_env("PGPORT", "5432"))
-    dbname = _env("PGDATABASE", "videorag")
-    user = _env("PGUSER", "postgres")
-    password = _env("PGPASSWORD")
+    settings = get_settings()
 
-    print("🔎 Env check:")
-    print(f"PGHOST={host!r}")
-    print(f"PGPORT={port!r}")
-    print(f"PGDATABASE={dbname!r}")
-    print(f"PGUSER={user!r}")
-    print(f"PGPASSWORD={'<set>' if password else '<NOT SET>'}")
-    print()
-
-    video_id = _env("VIDEO_ID", "").strip()
-    if not video_id:
-        video_id = input("Video ID (e.g., StanfordCS229): ").strip()
+    video_id = input("Video ID: ").strip()
 
     chunks_path = Path(f"data/derived/{video_id}/chunks.json")
     if not chunks_path.exists():
@@ -42,10 +22,13 @@ def main() -> None:
     if not isinstance(chunks, list) or not chunks:
         raise ValueError("chunks.json has no 'chunks' list (or it's empty).")
 
-    conn_str = f"host={host} port={port} dbname={dbname} user={user} password={password}"
-
-    # ---- Insert (upsert) ----
-    with psycopg.connect(conn_str) as conn:
+    with psycopg.connect(
+        host=settings.pg_host,
+        port=settings.pg_port,
+        dbname=settings.pg_db,
+        user=settings.pg_user,
+        password=settings.pg_password,
+    ) as conn:
         with conn.cursor() as cur:
             inserted = 0
             for ch in chunks:
@@ -70,8 +53,9 @@ def main() -> None:
 
         conn.commit()
 
-    print(f"✅ Indexed {inserted} chunks for video '{video_id}' into Postgres.")
+    print(f"Indexed {inserted} chunks for video '{video_id}' into pgvector db.")
 
 
 if __name__ == "__main__":
     main()
+
