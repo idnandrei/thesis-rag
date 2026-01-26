@@ -3,7 +3,8 @@ from __future__ import annotations
 from contextlib import contextmanager
 from typing import Iterator
 
-from sqlalchemy import create_engine
+from pgvector.psycopg import register_vector
+from sqlalchemy import create_engine, event
 from sqlalchemy.orm import Session, sessionmaker
 
 from videorag.config.settings import get_settings
@@ -16,6 +17,12 @@ engine = create_engine(
     pool_pre_ping=True,
 )
 
+
+@event.listens_for(engine, "connect")
+def _on_connect(dbapi_conn, _conn_record) -> None:
+    register_vector(dbapi_conn)
+
+
 SessionLocal = sessionmaker(
     bind=engine,
     autoflush=False,
@@ -26,12 +33,6 @@ SessionLocal = sessionmaker(
 
 @contextmanager
 def db_session() -> Iterator[Session]:
-    """
-    Context-managed session:
-      with db_session() as s:
-          ...
-    Commits on success, rollbacks on error.
-    """
     session = SessionLocal()
     try:
         yield session
