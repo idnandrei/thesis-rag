@@ -1,30 +1,14 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 import tiktoken
 
-
-# -----------------------------
-# Config
-# -----------------------------
-@dataclass(frozen=True)
-class ChunkingConfig:
-    chunk_tokens: int = 512
-    overlap_tokens: int = 100
-    max_tokens: int = 640   # safety cap
+from videorag.config.settings import get_settings
 
 
-def default_chunking_config() -> ChunkingConfig:
-    return ChunkingConfig()
-
-
-# -----------------------------
-# IO
-# -----------------------------
 def _load_events(events_path: Path) -> Tuple[str, List[Dict[str, Any]]]:
     data = json.loads(events_path.read_text(encoding="utf-8"))
 
@@ -32,18 +16,18 @@ def _load_events(events_path: Path) -> Tuple[str, List[Dict[str, Any]]]:
     events = data.get("events", [])
 
     cleaned: List[Dict[str, Any]] = []
-    for idx, e in enumerate(events):
-        text = (e.get("text") or "").strip()
+    for idx, event in enumerate(events):
+        text = str(event.get("text", "")).strip()
         if not text:
             continue
 
-        t_start = float(e.get("t_start", e.get("t", 0.0)))
-        t_end = float(e.get("t_end", e.get("t", t_start)))
+        t_start = float(event.get("t_start", event.get("t", 0.0)))
+        t_end = float(event.get("t_end", event.get("t", t_start)))
 
         cleaned.append(
             {
                 "event_id": idx,
-                "type": str(e.get("type", "asr")),
+                "type": str(event.get("type", "asr")),
                 "t_start": t_start,
                 "t_end": t_end,
                 "text": text,
@@ -54,19 +38,20 @@ def _load_events(events_path: Path) -> Tuple[str, List[Dict[str, Any]]]:
     return video_id, cleaned
 
 
-# -----------------------------
-# Chunking
-# -----------------------------
 def chunk_events_to_file(
     *,
     video_id: str,
     events_path: Path,
-    derived_root: Path = Path("data/derived"),
-    cfg: ChunkingConfig | None = None,
+    derived_root: Path | None = None,
 ) -> Path:
+    settings = get_settings()
 
-    if cfg is None:
-        cfg = default_chunking_config()
+    derived_root = derived_root or settings.paths.derived_dir
+
+    chunk_tokens = settings.chunking.chunk_tokens
+    overlap_tokens = settings.chunking.overlap_tokens
+    max_tokens = settings.chunking.max_tokens
+    tokenizer_name = settings.chunking.tokenizer_name
 
     file_video_id, events = _load_events(events_path)
     if not video_id:
@@ -76,10 +61,8 @@ def chunk_events_to_file(
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "chunks.json"
 
-    enc = tiktoken.get_encoding("cl100k_base")
-
-    # Precompute token counts per event
-    event_tokens = [len(enc.encode(e["text"])) for e in events]
+    enc = tiktoken.get_encoding(tokenizer_name)
+    event_tokens = [len(enc.encode(event["text"])) for event in events]
 
     chunks: List[Dict[str, Any]] = []
 
@@ -94,31 +77,28 @@ def chunk_events_to_file(
         while i < len(events):
             next_tokens = token_count + event_tokens[i]
 
-            # Always allow first event
             if i == start_i:
                 token_count = next_tokens
                 end_i = i
                 i += 1
                 continue
 
-            if next_tokens <= cfg.chunk_tokens:
+            if next_tokens <= chunk_tokens:
                 token_count = next_tokens
                 end_i = i
                 i += 1
                 continue
 
-            # ----- closest-to-boundary decision -----
-            diff_stop = abs(cfg.chunk_tokens - token_count)
-            diff_add = abs(cfg.chunk_tokens - next_tokens)
+            diff_stop = abs(chunk_tokens - token_count)
+            diff_add = abs(chunk_tokens - next_tokens)
 
-            if diff_add <= diff_stop and next_tokens <= cfg.max_tokens:
+            if diff_add <= diff_stop and next_tokens <= max_tokens:
                 token_count = next_tokens
                 end_i = i
                 i += 1
 
             break
 
-        # Build chunk
         texts = [events[k]["text"] for k in range(start_i, end_i + 1)]
         chunk_text = " ".join(texts)
 
@@ -127,8 +107,8 @@ def chunk_events_to_file(
 
         counts: Dict[str, int] = {}
         for k in range(start_i, end_i + 1):
-            t = events[k]["type"]
-            counts[t] = counts.get(t, 0) + 1
+            event_type = events[k]["type"]
+            counts[event_type] = counts.get(event_type, 0) + 1
 
         chunks.append(
             {
@@ -143,10 +123,7 @@ def chunk_events_to_file(
         )
         chunk_id += 1
 
-        # -----------------------------
-        # Token-based overlap (event-aligned)
-        # -----------------------------
-        overlap_budget = cfg.overlap_tokens
+        overlap_budget = overlap_tokens
         back_tokens = 0
         j = end_i
 
@@ -159,10 +136,10 @@ def chunk_events_to_file(
     payload = {
         "video_id": video_id,
         "config": {
-            "chunk_tokens": cfg.chunk_tokens,
-            "overlap_tokens": cfg.overlap_tokens,
-            "max_tokens": cfg.max_tokens,
-            "tokenizer": "tiktoken::cl100k_base",
+            "chunk_tokens": chunk_tokens,
+            "overlap_tokens": overlap_tokens,
+            "max_tokens": max_tokens,
+            "tokenizer": f"tiktoken::{tokenizer_name}",
         },
         "chunks": chunks,
     }
@@ -173,3 +150,4 @@ def chunk_events_to_file(
     )
 
     return out_path
+

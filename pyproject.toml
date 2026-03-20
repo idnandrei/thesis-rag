@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "mlx-whisper>=0.4.3",
     "openai>=2.15.0",
+    "opencv-python>=4.13.0.92",
     "pgvector>=0.4.2",
     "psycopg>=3.3.2",
     "python-dotenv>=1.2.1",

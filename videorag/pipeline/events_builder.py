@@ -1,27 +1,21 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
+
+from videorag.config.settings import get_settings
 
 
 def _clean_text(s: str) -> str:
     return " ".join((s or "").strip().split())
 
 
-@dataclass(frozen=True)
-class EventBuilderConfig:
-    # If true, include an "event_id" (index) field on each event for traceability
-    include_event_id: bool = True
-
-
 def build_events_from_asr(
     *,
     video_id: str,
     transcript_segments_path: Path,
-    derived_root: Path = Path("data/derived"),
-    cfg: EventBuilderConfig = EventBuilderConfig(),
+    derived_root: Path | None = None,
 ) -> Path:
     """
     Build a unified events.json from ASR transcript segments (MVP).
@@ -40,6 +34,9 @@ def build_events_from_asr(
         ]
       }
     """
+    settings = get_settings()
+    derived_root = derived_root or settings.paths.derived_dir
+
     data = json.loads(transcript_segments_path.read_text(encoding="utf-8"))
 
     file_video_id = str(data.get("video_id", "")).strip()
@@ -51,6 +48,7 @@ def build_events_from_asr(
         raise ValueError("Invalid transcript file: 'segments' must be a list.")
 
     events: List[Dict[str, Any]] = []
+
     for seg in segments:
         text = _clean_text(str(seg.get("text", "")))
         if not text:
@@ -69,17 +67,20 @@ def build_events_from_asr(
             }
         )
 
-    # Ensure stable time order
     events.sort(key=lambda e: (e["t_start"], e["t_end"]))
 
-    if cfg.include_event_id:
-        for idx, e in enumerate(events):
-            e["event_id"] = idx
+    for idx, event in enumerate(events):
+        event["event_id"] = idx
 
     out_dir = derived_root / video_id
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "events.json"
 
     payload = {"video_id": video_id, "events": events}
-    out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
     return out_path
+
