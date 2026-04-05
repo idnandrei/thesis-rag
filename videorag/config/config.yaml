@@ -1,0 +1,60 @@
+paths:
+  data_dir: data
+  derived_dir: data/derived
+  registry_path: data/registry.json
+  dataset_root: dataset/longervideos
+
+experiment:
+  name: baseline
+
+frame_sampling:
+  enabled: true
+  interval_seconds: 2.0
+  image_ext: jpg
+  jpeg_quality: 90
+
+keyframe_filtering:
+  enabled: false
+  method: ssim
+  resize_width: 640
+  ssim_threshold: 0.80
+  ssim_dynamic_threshold: true
+  ssim_dynamic_c: 0.01
+  ssim_dynamic_k: 1000.0
+  mse_threshold: 100.0
+
+visual_extraction:
+  model_path: models/visual_object_detector/best.pt
+  conf: 0.5
+  iou: 0.45
+  pad_frac: 0.03
+  min_area_frac: 0.01
+
+asr:
+  language: en
+  model_name: mlx-community/whisper-large-v3-mlx
+ocr:
+  min_confidence: 0.0
+  use_gpu: true
+
+image_caption:
+  model_name: Qwen/Qwen3-VL-4B-Instruct
+  max_new_tokens: 256
+  do_sample: false
+person_filter:
+  model_name: yolo26n.pt
+  person_conf_threshold: 0.30
+  person_box_ratio_threshold: 0.40
+prompting_llm:
+  model_name: gpt-5.4
+  reasoning_effort: medium
+  verbosity: low
+
+chunking:
+  chunk_tokens: 512
+  overlap_tokens: 100
+  max_tokens: 640
+  tokenizer_name: cl100k_base
+
+retrieval:
+  top_k: 10

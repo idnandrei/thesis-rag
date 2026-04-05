@@ -21,8 +21,23 @@ class VideoPaths:
     # ---- Raw inputs ----
     @property
     def raw_video_path(self) -> Path:
-        # your convention: data/raw/<video_id>/video.mp4
-        return self.raw_dir / "video.mp4"
+        """
+        Finds data/raw/<video_id>/video.<ext> (mp4/mkv/mov/...)
+        """
+        matches = sorted(self.raw_dir.glob("video.*"))
+        if not matches:
+            raise FileNotFoundError(
+                f"No raw video found in {self.raw_dir}. Expected something like video.mp4 / video.mkv"
+            )
+
+        # Prefer common formats if multiple exist
+        preferred = [".mp4", ".mkv", ".mov", ".webm", ".avi"]
+        for ext in preferred:
+            for p in matches:
+                if p.suffix.lower() == ext:
+                    return p
+
+        return matches[0]
 
     # ---- Derived artifacts ----
     @property

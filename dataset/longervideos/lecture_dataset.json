@@ -1,0 +1,1683 @@
+{
+  "2": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=5nwVzy2QJKM",
+      "https://www.youtube.com/watch?v=OlL9xwg5h5k",
+      "https://www.youtube.com/watch?v=O2AFzHERkDc",
+      "https://www.youtube.com/watch?v=A2vwQOaVg-E"
+    ],
+    "description": "climate-week-at-columbia-engineering",
+    "questions": [
+      {
+        "id": 0,
+        "question": "What role does the spherical tokamak design play in Tokamak Energy LLC's approach to fusion?"
+      },
+      {
+        "id": 1,
+        "question": "Why did the triple product in fusion research stop accelerating in the late 1990s/early 2000s?"
+      },
+      {
+        "id": 2,
+        "question": "What is the potential impact of fusion for climate and space exploration?"
+      },
+      {
+        "id": 3,
+        "question": "What is the Department of Energy's (DOE) Milestone program?"
+      },
+      {
+        "id": 4,
+        "question": "How can symbolic regression be used to improve climate modeling?"
+      },
+      {
+        "id": 5,
+        "question": "How can we improve the trustworthiness and interpretability of climate models that use machine learning?"
+      },
+      {
+        "id": 6,
+        "question": "How does the Software Carbon Intensity (SCI) standard apply to AI?"
+      },
+      {
+        "id": 7,
+        "question": "How do researchers at Columbia University work to close data gaps in air pollution monitoring?"
+      },
+      {
+        "id": 8,
+        "question": "What is the idea behind the air sensors lab at Columbia's Lamont Doherty Earth Observatory?"
+      },
+      {
+        "id": 9,
+        "question": "How do researchers calibrate low-cost air quality sensors to provide more accurate data?"
+      },
+      {
+        "id": 10,
+        "question": "What are the challenges of transitioning from charcoal to LPG as a cooking fuel in Ghana, and what are the potential benefits?"
+      },
+      {
+        "id": 11,
+        "question": "How does AI impact sustainable computing's energy demands?"
+      },
+      {
+        "id": 12,
+        "question": "What are the main challenges hindering fusion energy commercialization?"
+      },
+      {
+        "id": 13,
+        "question": "Outline the timeline for a fusion pilot plant, ideal vs. realistic."
+      },
+      {
+        "id": 14,
+        "question": "What are the economic benefits and opportunities that could arise from successful commercialization of fusion energy?"
+      },
+      {
+        "id": 15,
+        "question": "How does the spherical tokamak design differ from traditional tokamaks, and what potential advantages does it offer?"
+      },
+      {
+        "id": 16,
+        "question": "What specific engineering challenges are currently hindering the progress of fusion energy development?"
+      },
+      {
+        "id": 17,
+        "question": "What are some specific examples of how AI has already been successfully applied to improve climate modeling?"
+      },
+      {
+        "id": 18,
+        "question": "How can AI be used to improve the accuracy and resolution of climate predictions, particularly at regional and local scales?"
+      },
+      {
+        "id": 19,
+        "question": "What are some of the benchmark datasets and metrics being used to evaluate the performance of AI-based climate models?"
+      },
+      {
+        "id": 20,
+        "question": "What are some of the techniques being explored to improve the energy efficiency of data centers, particularly in the context of growing AI workloads?"
+      },
+      {
+        "id": 21,
+        "question": "What are some of the challenges in accurately measuring the carbon footprint of AI systems, and what initiatives are underway to address these challenges?"
+      },
+      {
+        "id": 22,
+        "question": "What are some of the policy and regulatory options for mitigating the environmental impact of AI, and what are the trade-offs associated with different approaches?"
+      },
+      {
+        "id": 23,
+        "question": "What are the challenges and opportunities in using low-cost air quality sensors to inform policy decisions and community action?"
+      },
+      {
+        "id": 24,
+        "question": "What are the social and economic factors that influence the adoption of clean energy technologies in developing countries, and how can interventions be designed to address these barriers?"
+      },
+      {
+        "id": 25,
+        "question": "What are the potential benefits of integrating social and economic considerations into building energy models and decarbonization plans?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "4": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=45LJT-bt500",
+      "https://www.youtube.com/watch?v=g21royNJ4fw",
+      "https://www.youtube.com/watch?v=kzP1sFynhxE",
+      "https://www.youtube.com/watch?v=oageL-1I0GE",
+      "https://www.youtube.com/watch?v=Hj7PuK1bMZU",
+      "https://www.youtube.com/watch?v=YPs4eGDpIY4",
+      "https://www.youtube.com/watch?v=6efwN_US-zk",
+      "https://www.youtube.com/watch?v=tmiBae2goJM",
+      "https://www.youtube.com/watch?v=w5WGbUGAE3s",
+      "https://www.youtube.com/watch?v=DI9Q60T_054"
+    ],
+    "description": "rag-lecture",
+    "questions": [
+      {
+        "id": 0,
+        "question": "Describe the main differences between the two RAG systems mentioned in the video (text-based and vision-based)."
+      },
+      {
+        "id": 1,
+        "question": "What are the advantages of vision-based RAG over text-based RAG?"
+      },
+      {
+        "id": 2,
+        "question": "Comparative analysis of the advantages and disadvantages of ColPali and traditional RAG in PDF processing."
+      },
+      {
+        "id": 3,
+        "question": "Explain Anthropic's prompt caching mechanism and its difference with Gemini context caching."
+      },
+      {
+        "id": 4,
+        "question": "Describe the core difference between traditional RAG and Agentic RAG, highlighting the role of agents."
+      },
+      {
+        "id": 5,
+        "question": "Explain the process of query refinement and iterative retrieval within the Agentic RAG framework."
+      },
+      {
+        "id": 6,
+        "question": "Compare and contrast the functionality and performance of localGPT-Vision with traditional RAG pipelines."
+      },
+      {
+        "id": 7,
+        "question": "Explain ColPali's vision-based approach to RAG."
+      },
+      {
+        "id": 8,
+        "question": "How does ColPail improve document retrieval?"
+      },
+      {
+        "id": 9,
+        "question": "How does ColPali improve PDF processing?"
+      },
+      {
+        "id": 10,
+        "question": "How does LightRAG compare to GraphRAG in terms of cost and performance?"
+      },
+      {
+        "id": 11,
+        "question": "Discuss the role of keyword-based search mechanisms (e.g., BM25) in improving RAG performance."
+      },
+      {
+        "id": 12,
+        "question": "Discuss the limitations of RAG systems."
+      },
+      {
+        "id": 13,
+        "question": "Discuss the Framework of GraphRAG."
+      },
+      {
+        "id": 14,
+        "question": "How to build Multi-modal RAG System?"
+      },
+      {
+        "id": 15,
+        "question": "What are the key components of the Local GPT Vision system?"
+      },
+      {
+        "id": 16,
+        "question": "How does Gemini's ability to understand the visual layout of a PDF, such as the placement of figures and tables, impact its accuracy in extracting information like captions and reference lists compared to traditional RAG systems?"
+      },
+      {
+        "id": 17,
+        "question": "When to use prompt caching?"
+      },
+      {
+        "id": 18,
+        "question": "Discuss the relationships between ColPali and LocalGPT-Vision."
+      },
+      {
+        "id": 19,
+        "question": "Using ColBERT as an example to explain the benefits of NotebookLM compared to the standard RAG architecture."
+      },
+      {
+        "id": 20,
+        "question": "What are the key differences between Anthropic and Gemini's caching approaches?"
+      },
+      {
+        "id": 21,
+        "question": "Compare and contrast Gemini Flash's PDF processing capabilities with those of GPT-4, highlighting specific examples from the transcript."
+      },
+      {
+        "id": 22,
+        "question": "Discuss the economic implications of using Gemini Flash versus traditional RAG systems for PDF processing, considering file size."
+      },
+      {
+        "id": 23,
+        "question": "Analyze Gemini Flash's multi-modal capabilities in handling PDFs containing images, tables, and text, citing specific examples."
+      },
+      {
+        "id": 24,
+        "question": "What are the limitations of using vision-language models like Quin-2 for local multimodal RAG implementations, especially concerning resource requirements and model performance on complex documents."
+      },
+      {
+        "id": 25,
+        "question": "How does the concept of 'late chunking' presented in the sources challenge traditional notions of chunking in RAG?"
+      },
+      {
+        "id": 26,
+        "question": "How might the evolution of long-context models like Gemini Flash impact the future of RAG development, particularly in terms of balancing cost, efficiency, and retrieval accuracy?"
+      },
+      {
+        "id": 27,
+        "question": "What are the potential ethical concerns of using a proprietary API like Gemini for PDF processing, compared to open-source RAG solutions? Consider factors like data privacy, vendor lock-in, and the transparency of model behavior."
+      },
+      {
+        "id": 28,
+        "question": "Compare and contrast Anthropic's prompt caching with Google's context caching for cost and latency reduction."
+      },
+      {
+        "id": 29,
+        "question": "What is prompt caching and how does it work?"
+      },
+      {
+        "id": 30,
+        "question": "How does prompt caching compare to traditional RAG in terms of cost and efficiency?"
+      },
+      {
+        "id": 31,
+        "question": "What are the limitations of prompt caching and when is traditional RAG still a better option?"
+      },
+      {
+        "id": 32,
+        "question": "What are some advanced RAG techniques and how do they address the limitations of basic RAG?"
+      },
+      {
+        "id": 33,
+        "question": "Discuss the role of keyword-based search mechanisms (e.g., BM25) in improving RAG performance."
+      },
+      {
+        "id": 34,
+        "question": "How does Anthropic's contextual retrieval approach compare to other techniques like late chunking in long context embedding models?"
+      },
+      {
+        "id": 35,
+        "question": "Discuss the chunking strategies in RAG."
+      },
+      {
+        "id": 36,
+        "question": "What are the potential benefits and drawbacks of 'late chunking' in terms of retrieval effectiveness and computational cost?"
+      },
+      {
+        "id": 37,
+        "question": "How does 'late chunking' enhance retrieval system accuracy?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "5": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=KxBWU96zfBY",
+      "https://www.youtube.com/watch?v=KliTr9N0Ayw",
+      "https://www.youtube.com/watch?v=B8s-FyN4UeE",
+      "https://www.youtube.com/watch?v=KIvl-VY8H0Y",
+      "https://www.youtube.com/watch?v=ob45YmYD2KI",
+      "https://www.youtube.com/watch?v=ut8qStGS7YM",
+      "https://www.youtube.com/watch?v=Rcm1kh6HVdg",
+      "https://www.youtube.com/watch?v=I2F9H7mNJCI",
+      "https://www.youtube.com/watch?v=eLiMpEIRBzY",
+      "https://www.youtube.com/watch?v=nrW__jof8pg"
+    ],
+    "description": "ai-agent-lecture",
+    "questions": [
+      {
+        "id": 0,
+        "question": "How does MemGPT integrate local open-source LLMs for processing?"
+      },
+      {
+        "id": 1,
+        "question": "Discuss various methods for integrating local LLMs into agent frameworks."
+      },
+      {
+        "id": 2,
+        "question": "Compare Mistral AI's and OpenAI's agent frameworks."
+      },
+      {
+        "id": 3,
+        "question": "How does Mistral AI's agent builder function?"
+      },
+      {
+        "id": 4,
+        "question": "What are the key features of AutoGen Studio?"
+      },
+      {
+        "id": 5,
+        "question": "What are the performance trade-offs of local versus cloud LLMs in MemGPT?"
+      },
+      {
+        "id": 6,
+        "question": "How does Anthropic's Claude 3 address LLM limitations?"
+      },
+      {
+        "id": 7,
+        "question": "How does Anthropic's system prompt design differ from typical approaches?"
+      },
+      {
+        "id": 8,
+        "question": "What methods are used to improve LLM retrieval accuracy?"
+      },
+      {
+        "id": 9,
+        "question": "What are the advantages and disadvantages of local vs. cloud LLMs in AutoGen Studio?"
+      },
+      {
+        "id": 10,
+        "question": "What technical challenges arise when using local LLMs with MemGPT?"
+      },
+      {
+        "id": 11,
+        "question": "How do proprietary data and APIs impact GPT replicability?"
+      },
+      {
+        "id": 12,
+        "question": "How are AI agents used in financial analysis?"
+      },
+      {
+        "id": 13,
+        "question": "How do different AI agent frameworks compare?"
+      },
+      {
+        "id": 14,
+        "question": "What are some examples of custom GPTs discussed?"
+      },
+      {
+        "id": 15,
+        "question": "How do Claude 3's different models compare in their system prompts?"
+      },
+      {
+        "id": 16,
+        "question": "What are the key features of Claude 3.5 Sonnet's system prompt?"
+      },
+      {
+        "id": 17,
+        "question": "What methods are used by OpenAI's SWARM for multi-agent system orchestration?"
+      },
+      {
+        "id": 18,
+        "question": "How does Mistral AI's agent builder simplify agent creation?"
+      },
+      {
+        "id": 19,
+        "question": "What limitations exist in current agentic frameworks?"
+      },
+      {
+        "id": 20,
+        "question": "How can users modify the output video generated by InVideo AI?"
+      },
+      {
+        "id": 21,
+        "question": "What are the key differences between Consensus GPT and Scholar GPT?"
+      },
+      {
+        "id": 22,
+        "question": "Describe the process of using sub-agents and a super agent to analyze financial reports in a PDF format."
+      },
+      {
+        "id": 23,
+        "question": "How do XML tags enhance prompt engineering within Claude?"
+      },
+      {
+        "id": 24,
+        "question": "How does Claude 3.5 Sonet handle citations, considering its inability to access external databases?"
+      },
+      {
+        "id": 25,
+        "question": "What specific instructions are given to Claude regarding the identification of humans in images?"
+      },
+      {
+        "id": 26,
+        "question": "How does the system prompt inform Claude 3.5 Sonet about the different models within the Claude family?"
+      },
+      {
+        "id": 27,
+        "question": "How does Cursor enable users to incorporate external documentation into their projects?"
+      },
+      {
+        "id": 28,
+        "question": "Explain the concept of 'Fast prompts' in Cursor and their limitations."
+      },
+      {
+        "id": 29,
+        "question": "Describe the three stages of fine-tuning LLMs, including an optional step."
+      },
+      {
+        "id": 30,
+        "question": "What are the three main supervised fine-tuning techniques and their performance implications?"
+      },
+      {
+        "id": 31,
+        "question": "How does the WBY voice assistant leverage function calling to perform actions on behalf of the user?"
+      },
+      {
+        "id": 32,
+        "question": "In the context of analyzing financial data, what specific task does the 'Opus' model perform in the agent workflow?"
+      },
+      {
+        "id": 33,
+        "question": "What specific phrase does Anthropic's system prompt instruct Claude to avoid when starting responses?"
+      },
+      {
+        "id": 34,
+        "question": "What is the primary goal of the open-source project DEVIKA?"
+      },
+      {
+        "id": 35,
+        "question": "What is the purpose of 'preference alignment' in the process of fine-tuning LLMs?"
+      },
+      {
+        "id": 36,
+        "question": "How does OpenAI's approach to prompt caching differ from the implementations of Google and Anthropic?"
+      },
+      {
+        "id": 37,
+        "question": "What is the core concept behind 'model distillation' in the context of LLMs?"
+      },
+      {
+        "id": 38,
+        "question": "What is the potential benefit of using the 'Graph RAG' approach over traditional 'RAG' systems, particularly when working with large or complex knowledge graphs?"
+      },
+      {
+        "id": 39,
+        "question": "What is the main limitation of open-source LLMs in relation to running advanced agents like SWE-Agent?"
+      },
+      {
+        "id": 40,
+        "question": "What are the key differences between traditional RAG and Graph RAG?"
+      },
+      {
+        "id": 41,
+        "question": "Which model claims to surpass GPT-4 on benchmarks?"
+      },
+      {
+        "id": 42,
+        "question": "What are the limitations of LLMs in reasoning tasks?"
+      },
+      {
+        "id": 43,
+        "question": "How does Ollama facilitate local LLM usage in Graph RAG?"
+      },
+      {
+        "id": 44,
+        "question": "What challenges arise when using smaller LLMs?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "6": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=RkGK0MloK0E",
+      "https://www.youtube.com/watch?v=1s9zZ6ERAko",
+      "https://www.youtube.com/watch?v=RNqXpdwd9AA",
+      "https://www.youtube.com/watch?v=2zaJZ_F7Xrk"
+    ],
+    "description": "daubechies-wavelet-lecture",
+    "questions": [
+      {
+        "id": 0,
+        "question": "What are the inherent limitations of time-frequency localization?"
+      },
+      {
+        "id": 1,
+        "question": "How do different window functions impact time-frequency analysis?"
+      },
+      {
+        "id": 2,
+        "question": "Explain Daubechies' 'Zak transform' and its purpose."
+      },
+      {
+        "id": 3,
+        "question": "Discuss limitations of orthonormal bases in time-frequency analysis."
+      },
+      {
+        "id": 4,
+        "question": "What mathematical structures underpin time-frequency representations?"
+      },
+      {
+        "id": 5,
+        "question": "Describe the role of the Heisenberg group in time-frequency analysis."
+      },
+      {
+        "id": 6,
+        "question": "Compare and contrast windowed Fourier transforms and wavelet transforms."
+      },
+      {
+        "id": 7,
+        "question": "What is the significance of the parameter Ωτ in windowed Fourier transforms?"
+      },
+      {
+        "id": 8,
+        "question": "Discuss the significance of using orthogonal windows in signal analysis."
+      },
+      {
+        "id": 9,
+        "question": "Explain the 'no-go theorem' regarding orthonormal time-frequency bases."
+      },
+      {
+        "id": 10,
+        "question": "Explain the significance of the product ωτ = 2π in time-frequency analysis."
+      },
+      {
+        "id": 11,
+        "question": "How does the synchrosqueezing transform enhance signal analysis?"
+      },
+      {
+        "id": 12,
+        "question": "How does Daubechies illustrate the effectiveness of synchrosqueezing in extracting fetal heartbeats from maternal ECGs?"
+      },
+      {
+        "id": 13,
+        "question": "What insights can be gained from analyzing bird songs using synchrosqueezing?"
+      },
+      {
+        "id": 14,
+        "question": "What is the specific medical application that Daubechies highlights for time-frequency analysis in the context of fetal health?"
+      },
+      {
+        "id": 15,
+        "question": "What specific features of bird songs make them interesting for analysis using time-frequency methods? What biological questions are researchers hoping to address?"
+      },
+      {
+        "id": 16,
+        "question": "How does Daubechies describe the appearance of a spectrogram for a signal with time-varying frequencies? What features indicate changes in frequency content over time?"
+      },
+      {
+        "id": 17,
+        "question": "What specific time-frequency patterns does Daubechies describe as indicative of singularities in a signal?"
+      },
+      {
+        "id": 18,
+        "question": "How does Daubechies motivate the use of 'interval statistics' in signal analysis by drawing an analogy to the human auditory system?"
+      },
+      {
+        "id": 19,
+        "question": "In the context of the synchrosqueezing transform, Daubechies discusses the use of multi-tapering with Hermite functions. What specific example does she provide to illustrate the improvement achieved by this technique?"
+      },
+      {
+        "id": 20,
+        "question": "Daubechies describes an analysis of a simulated signal with two cosine components and varying instantaneous frequencies.  What specific observations does she make about the resulting time-frequency representation?"
+      },
+      {
+        "id": 21,
+        "question": "What limitations does Daubechies acknowledge in the use of the cepstrum for extracting signal components?"
+      },
+      {
+        "id": 22,
+        "question": "What future directions for research does Daubechies suggest in the context of analyzing animal vocalizations using time-frequency methods?"
+      },
+      {
+        "id": 23,
+        "question": "Throughout the lectures, Daubechies emphasizes the importance of understanding the underlying signal model. How does this perspective guide the choice and interpretation of time-frequency analysis techniques?"
+      },
+      {
+        "id": 24,
+        "question": "What general insights does Daubechies offer about the interplay between mathematical theory, computational methods, and real-world applications in the field of time-frequency analysis?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "7": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=wfmUNIpMyvo",
+      "https://www.youtube.com/watch?v=2rfzNw2I26Y",
+      "https://www.youtube.com/watch?v=Z19uz6Bol3I",
+      "https://www.youtube.com/watch?v=4n1vNDFqwY8"
+    ],
+    "description": "daubechies-art-and-mathematics-lecture",
+    "questions": [
+      {
+        "id": 0,
+        "question": "How do mathematical tools enhance art historical analysis?"
+      },
+      {
+        "id": 1,
+        "question": "What novel applications of mathematics exist within art conservation?"
+      },
+      {
+        "id": 2,
+        "question": "How did circular harmonics aid fresco reconstruction?"
+      },
+      {
+        "id": 3,
+        "question": "How did x-ray fluorescence aid the analysis of Van Gogh's painting?"
+      },
+      {
+        "id": 4,
+        "question": "How did mathematical techniques aid in reconstructing the Padua frescoes?"
+      },
+      {
+        "id": 5,
+        "question": "Describe Ingrid Daubechies's collaboration with the North Carolina Museum of Art."
+      },
+      {
+        "id": 6,
+        "question": "How did mathematics aid in reconstructing the Padua frescoes?"
+      },
+      {
+        "id": 7,
+        "question": "What methods were used to virtually age and rejuvenate the Giotto altarpiece?"
+      },
+      {
+        "id": 8,
+        "question": "How did Massimo Fonacier reconstruct damaged frescoes?"
+      },
+      {
+        "id": 9,
+        "question": "What motivations did Ingrid Daubechies express for engaging in collaborations with art historians and conservators?"
+      },
+      {
+        "id": 10,
+        "question": "Explain the role of human expertise in projects involving the application of mathematics to art conservation. Provide specific examples."
+      },
+      {
+        "id": 11,
+        "question": "What mathematical concept, used to analyze signal frequency, did Daubechies employ to analyze variations in scale and detail within Van Gogh's brushstrokes?"
+      },
+      {
+        "id": 12,
+        "question": "What specific mathematical tool, based on the unique property of predictable transformation under rotation, was central to the reconstruction of the Padua frescoes?"
+      },
+      {
+        "id": 13,
+        "question": "How did the digitization process capture the visual information of the fresco fragments?"
+      },
+      {
+        "id": 14,
+        "question": "Explain the mathematical challenge of identifying the correct rotation of fresco fragments. How did circular harmonics help overcome this obstacle?"
+      },
+      {
+        "id": 15,
+        "question": "What was the 'Munt Lab' and what role did it play in the reconstruction project?"
+      },
+      {
+        "id": 16,
+        "question": "How did Daubechies's team address the challenge of 'cradle' interference in X-ray images of panel paintings? What was the impact of this work?"
+      },
+      {
+        "id": 17,
+        "question": "In addition to her work with the North Carolina Museum of Art, what other applications of mathematics to art conservation and scientific research did Daubechies discuss?"
+      },
+      {
+        "id": 18,
+        "question": "How has Ingrid Daubechies's work influenced the practices of art conservators and historians?"
+      },
+      {
+        "id": 19,
+        "question": "What concerns did the North Carolina Museum of Art (NCMA) initially have about the reconstruction of the Gisi Altarpiece?"
+      },
+      {
+        "id": 20,
+        "question": "What was the broader significance of the Gisi Altarpiece project, beyond the physical reunification of the artwork?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "8": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=-GHyXBcpOZI",
+      "https://www.youtube.com/watch?v=YG6Tv8aoAuM",
+      "https://www.youtube.com/watch?v=1xTTRCIWMlg",
+      "https://www.youtube.com/watch?v=K1DlToP60rc"
+    ],
+    "description": "tech-ceo-lecture",
+    "questions": [
+      {
+        "id": 0,
+        "question": "What are the main research and development priorities for Saint-Gobain?"
+      },
+      {
+        "id": 1,
+        "question": "What is Saint-Gobain's strategy for reducing their carbon footprint in the production of flat glass?"
+      },
+      {
+        "id": 2,
+        "question": "How does the aco  ustic quality of a classroom impact teachers?"
+      },
+      {
+        "id": 3,
+        "question": "According to Rajesh Jain, what is the most common question entrepreneurs face?"
+      },
+      {
+        "id": 4,
+        "question": "What are the two things that Rajesh Jain believes are required to build a strong company culture?"
+      },
+      {
+        "id": 5,
+        "question": "How does Saint-Gobain address CO2 emissions in building materials?"
+      },
+      {
+        "id": 6,
+        "question": "What environmental challenges does Saint-Gobain address in the built environment?"
+      },
+      {
+        "id": 7,
+        "question": "How does Saint-Gobain's organizational structure aid its sustainability goals?"
+      },
+      {
+        "id": 8,
+        "question": "What specific low-carbon initiatives has Saint-Gobain implemented?"
+      },
+      {
+        "id": 9,
+        "question": "How does Saint-Gobain measure the impact of its sustainability initiatives?"
+      },
+      {
+        "id": 10,
+        "question": "What are Saint-Gobain's main sustainability-focused strategies?"
+      },
+      {
+        "id": 11,
+        "question": "How did Saint-Gobain reorganize to address sustainability challenges?"
+      },
+      {
+        "id": 12,
+        "question": "What is Saint-Gobain's commitment regarding carbon neutrality?"
+      },
+      {
+        "id": 13,
+        "question": "Explain the connection between Saint-Gobain's reorganization and its commitment to sustainability."
+      },
+      {
+        "id": 14,
+        "question": "How does Saint-Gobain address the financial barriers homeowners face when considering energy-efficient renovations?"
+      },
+      {
+        "id": 15,
+        "question": "Explain the concept of 'Tech' as a leadership principle at Saint-Gobain and provide an example of its implementation."
+      },
+      {
+        "id": 16,
+        "question": "Describe Saint-Gobain's approach to engaging with and aligning its diverse workforce around sustainability goals."
+      },
+      {
+        "id": 17,
+        "question": "Explain the 'Marshall Plan' proposed by Benoit Bazin and its intended impact on the building retrofit sector."
+      },
+      {
+        "id": 18,
+        "question": "How does Saint-Gobain leverage the economic benefits of energy-efficient renovations to promote their adoption?"
+      },
+      {
+        "id": 19,
+        "question": "Describe the key characteristics of a 'profcon' and how it differs from a traditional unicorn startup."
+      },
+      {
+        "id": 20,
+        "question": "Explain Rajesh Jain's philosophy on the role of failure in the entrepreneurial journey."
+      },
+      {
+        "id": 21,
+        "question": "How does Rajesh Jain recommend entrepreneurs identify and validate potential market opportunities?"
+      },
+      {
+        "id": 22,
+        "question": "Explain the concept of 'curious listening' and its importance in an entrepreneurial context."
+      },
+      {
+        "id": 23,
+        "question": "Describe the two essential elements Rajesh Jain believes are necessary for building a strong company culture."
+      },
+      {
+        "id": 24,
+        "question": "Explain the '131' method for tackling problems and its benefits in delegating and developing leadership."
+      },
+      {
+        "id": 25,
+        "question": "Explain the '$100 Delta decision rule' and its application in simplifying decision-making."
+      },
+      {
+        "id": 26,
+        "question": "Describe the multidisciplinary approach employed by Exponent in conducting injury biomechanics investigations."
+      },
+      {
+        "id": 27,
+        "question": "Explain how Exponent utilizes different types of evidence to reconstruct the mechanism of an injury."
+      },
+      {
+        "id": 28,
+        "question": "Describe the role of Anthropomorphic Test Devices (ATDs) in injury biomechanics research and how they are used to assess injury risk."
+      },
+      {
+        "id": 29,
+        "question": "Explain the concept of 'injury tolerance' and describe the various methods used to understand human tolerance limits."
+      },
+      {
+        "id": 30,
+        "question": "How does Exponent address the challenge of studying injury tolerance in spines with pre-existing degenerative conditions?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "9": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=NePAPGxZnmE",
+      "https://www.youtube.com/watch?v=rqR3LeR09gc",
+      "https://www.youtube.com/watch?v=52wo6uvhvaw",
+      "https://www.youtube.com/watch?v=ycfnKPxBMck",
+      "https://www.youtube.com/watch?v=dTzL8OF_3i0",
+      "https://www.youtube.com/watch?v=_pyuxT8DXXU",
+      "https://www.youtube.com/watch?v=1ww8RlFC8uI",
+      "https://www.youtube.com/watch?v=mWrivekFZMM",
+      "https://www.youtube.com/watch?v=Yn0KC8Pa0Xs"
+    ],
+    "description": "dspy-lecture",
+    "questions": [
+      {
+        "id": 0,
+        "question": "How does DSPy address limitations of LangChain prompt templates?"
+      },
+      {
+        "id": 1,
+        "question": "How can graph neural networks improve the accuracy and efficiency of retrieval augmented generation?"
+      },
+      {
+        "id": 2,
+        "question": "What innovative approaches address the shortcomings of existing RAG systems' information retrieval?"
+      },
+      {
+        "id": 3,
+        "question": "What limitations hinder current RAG systems' effectiveness in retrieving relevant information?"
+      },
+      {
+        "id": 4,
+        "question": "What are the advantages of LangGraph over legacy LangChain for multi-agent systems?"
+      },
+      {
+        "id": 5,
+        "question": "Describe Lang Graph's user interface and functionality."
+      },
+      {
+        "id": 6,
+        "question": "How does DSPy improve incontext learning in LLMs?"
+      },
+      {
+        "id": 7,
+        "question": "How does the concept of 'teleprompters' in DSPy relate to prompt engineering?"
+      },
+      {
+        "id": 8,
+        "question": "Explain how signatures in DSPy differ from traditional hard-coded prompts"
+      },
+      {
+        "id": 9,
+        "question": "How is the concept of bootstrapping used in DSPy to improve model performance?"
+      },
+      {
+        "id": 10,
+        "question": "How can DSPy be used to automatically fine-tune a language model?"
+      },
+      {
+        "id": 11,
+        "question": "In what ways does the Microsoft research on RAG and fine-tuning suggest a preference for their own products and services? "
+      },
+      {
+        "id": 12,
+        "question": "Compare and contrast the 'demonstrate', 'search' and 'predict' phases of the DSP framework."
+      },
+      {
+        "id": 13,
+        "question": "How does DSP leverage in-context learning without the need for retraining the LLM?"
+      },
+      {
+        "id": 14,
+        "question": "Explain the concept of multi-hop searches within the DSP framework and its significance."
+      },
+      {
+        "id": 15,
+        "question": "Describe how DSP was used to connect Newton's laws of motion to modern space exploration."
+      },
+      {
+        "id": 16,
+        "question": "Illustrate how DSPy can be applied to solve an extreme multi-label classification problem."
+      },
+      {
+        "id": 17,
+        "question": "Outline the 'infer-retrieve-rank' system proposed for extreme multi-label classification using DSPy."
+      },
+      {
+        "id": 18,
+        "question": "Explain the limitations of using traditional vector embedding techniques in RAG systems for retrieving new research data."
+      },
+      {
+        "id": 19,
+        "question": "How do state machines, state agents, and state spaces relate to AI and LLMs?"
+      },
+      {
+        "id": 20,
+        "question": "Discuss the strengths and weaknesses of LangChain and LangGraph in the context of LLM interactions."
+      },
+      {
+        "id": 21,
+        "question": "Explain why directed acyclic graphs are important in various fields, including AI."
+      },
+      {
+        "id": 22,
+        "question": "Why did certain LLMs fail to answer the prompt about sending a seventh child to Stanford?"
+      },
+      {
+        "id": 23,
+        "question": "Discuss the challenges LLMs face when encountering a task embedded in the middle of a long text."
+      },
+      {
+        "id": 24,
+        "question": "Explain the concept of 'Lost in the Middle' in the context of LLMs processing long texts."
+      },
+      {
+        "id": 25,
+        "question": "Explain the concepts of 'tree traversal' and 'collapsed tree' retrieval methods as described in the Raptor framework."
+      },
+      {
+        "id": 26,
+        "question": "Discuss the potential benefits of incorporating graph-based analysis into RAG systems to enhance the identification of relevant information and improve reasoning capabilities."
+      },
+      {
+        "id": 27,
+        "question": "How can the incorporation of graph neural networks (GNNs) into RAG systems improve information retrieval and overcome limitations of vector-based methods?"
+      },
+      {
+        "id": 28,
+        "question": "Why is the retrieval of a large number of text passages crucial for accurate RAG performance, especially in specialized domains or when dealing with new knowledge?"
+      },
+      {
+        "id": 29,
+        "question": "How does the Demonstrate-Search-Predict (DSP) methodology enhance the ability of Large Language Models (LLMs) to handle complex tasks?"
+      },
+      {
+        "id": 30,
+        "question": "In what ways can graph theory be applied to optimize the performance of AI pipelines that involve both LLMs and retrieval models?"
+      },
+      {
+        "id": 31,
+        "question": "Explain the concept of a 'stateful graph' as it relates to LangGraph and how it impacts the interaction of nodes within the graph."
+      },
+      {
+        "id": 32,
+        "question": "What strategies can be used to address the limitations of LLMs in handling context lengths exceeding 2K tokens?"
+      },
+      {
+        "id": 33,
+        "question": "How does DSPy, developed at Stanford, eliminate the reliance on hard-coded prompt templates in RAG systems?"
+      },
+      {
+        "id": 34,
+        "question": "Describe how DSPy can be utilized to bootstrap synthetic, domain-specific data for enhancing LLM performance."
+      },
+      {
+        "id": 35,
+        "question": "What strategies can be employed to mitigate the failure of AI systems in causal reasoning tasks?"
+      },
+      {
+        "id": 36,
+        "question": "What are the primary reasons for the failure of certain LLMs in accurately processing text containing embedded tasks within longer documents?"
+      },
+      {
+        "id": 37,
+        "question": "Explain the concept of 'extreme multi-label classification' (XMC) and provide a real-world example of its application."
+      }
+    ],
+    "type": "lecture"
+  },
+  "10": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=_YVQN6_nkfs",
+      "https://www.youtube.com/watch?v=rpDdQ0N2l50"
+    ],
+    "description": "trading-for-beginners",
+    "questions": [
+      {
+        "id": 0,
+        "question": "What strategies and techniques enable consistent trading success?"
+      },
+      {
+        "id": 1,
+        "question": "How can traders effectively manage risk and optimize returns?"
+      },
+      {
+        "id": 2,
+        "question": "Describe the instructor's suggested timeframe for consistent profitability in trading."
+      },
+      {
+        "id": 3,
+        "question": "How does the instructor differentiate between a 'buy limit' order and a 'buy stop' order?"
+      },
+      {
+        "id": 4,
+        "question": "Why do some brokers have a negative reputation in the trading community?"
+      },
+      {
+        "id": 5,
+        "question": "Which specific feature of Trade Nation provides a significant advantage?"
+      },
+      {
+        "id": 6,
+        "question": "How to define the 'ranging market' in terms of price movement?"
+      },
+      {
+        "id": 7,
+        "question": "What minimum IQ does the instructor suggest is beneficial for trading success?"
+      },
+      {
+        "id": 8,
+        "question": "How to verify the order of price movements in a historical trade setup?"
+      },
+      {
+        "id": 9,
+        "question": "How does the act of sharing one's trading journey with others benefit the learning process?"
+      },
+      {
+        "id": 10,
+        "question": "How can observing the behavior of professional poker players provide insights into successful trading practices?"
+      },
+      {
+        "id": 11,
+        "question": "In the context of trading, what is a 'doji' candle, and how is it significant?"
+      },
+      {
+        "id": 12,
+        "question": "What does 'dumb donation' mean in the context of trading fees?"
+      },
+      {
+        "id": 13,
+        "question": "Why is it considered unwise to solely rely on trading strategies obtained from external sources?"
+      },
+      {
+        "id": 14,
+        "question": "Besides identifying bullish and bearish trends, what other market condition should traders consider before engaging in a trade setup?"
+      },
+      {
+        "id": 15,
+        "question": "How does the length of a trade impact the potential accumulation of fees, such as rollover costs?"
+      },
+      {
+        "id": 16,
+        "question": "How can traders avoid the potential for emotional distress and anxiety when interacting with other traders?"
+      },
+      {
+        "id": 17,
+        "question": "How can historical trade data be utilized to assess the potential impact of increasing position size on an equity curve?"
+      },
+      {
+        "id": 18,
+        "question": "In the context of trading, what is the significance of understanding the distinction between a 'B book' and an 'A book' in a brokerage's operations?"
+      },
+      {
+        "id": 19,
+        "question": "What is the purpose of conducting a quarterly review of trading journal entries?"
+      },
+      {
+        "id": 20,
+        "question": "How can a trader identify potential areas for improvement by analyzing the results of their backtesting?"
+      },
+      {
+        "id": 21,
+        "question": "Beyond technical performance, what personal aspects should traders track in their journals for self-evaluation?"
+      },
+      {
+        "id": 22,
+        "question": "How can a trading journal be used to assess the effectiveness of a chosen target placement strategy?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "16": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=hjRxht__2wI",
+      "https://www.youtube.com/watch?v=HwkyhIiG8V0",
+      "https://www.youtube.com/watch?v=v7UDNvciQ38",
+      "https://www.youtube.com/watch?v=cstrfin0bYo",
+      "https://www.youtube.com/watch?v=1ZqR-wGKHGQ",
+      "https://www.youtube.com/watch?v=JLs5iQrkVng",
+      "https://www.youtube.com/watch?v=HuXhtV6Yi-k",
+      "https://www.youtube.com/watch?v=SbCmu7SeXCQ",
+      "https://www.youtube.com/watch?v=Msaer6b6QU8",
+      "https://www.youtube.com/watch?v=AUJeIG3Gjis"
+    ],
+    "description": "ahp-superdecision",
+    "questions": [
+      {
+        "id": 0,
+        "question": "What are the benefits of using a ratings model over pairwise comparisons in AHP, and when is it particularly useful?"
+      },
+      {
+        "id": 1,
+        "question": "How can an AHP model be converted into an ANP model in Super Decisions, and what additional judgments are required?"
+      },
+      {
+        "id": 2,
+        "question": "How can the results of AHP analysis be visualized in Super Decisions, including the priorities of alternatives and criteria?"
+      },
+      {
+        "id": 3,
+        "question": "How is the unweighted supermatrix used in AHP, and how is it generated in Super Decisions?"
+      },
+      {
+        "id": 4,
+        "question": "How can the global priorities of alternatives be calculated in AHP using Super Decisions?"
+      },
+      {
+        "id": 5,
+        "question": "How can the inconsistency ratio be improved in Super Decisions software?"
+      },
+      {
+        "id": 6,
+        "question": "How can sub-criteria be incorporated into the AHP hierarchy using Super Decisions software?"
+      },
+      {
+        "id": 7,
+        "question": "Why is absolute measurement preferred over relative measurement when dealing with a large number of alternatives in AHP?"
+      },
+      {
+        "id": 8,
+        "question": "How are ratings and intensities used in the absolute measurement process of AHP?"
+      },
+      {
+        "id": 9,
+        "question": "In SuperDecisions software, what steps are involved in performing sensitivity analysis for an AHP model?"
+      },
+      {
+        "id": 10,
+        "question": "Describe the two phases involved in implementing absolute measurement in SuperDecisions software."
+      },
+      {
+        "id": 11,
+        "question": "What are the advantages of using the ratings mode in SuperDecisions software for absolute measurement?"
+      },
+      {
+        "id": 12,
+        "question": "Explain the process of creating an AHP hierarchy in SuperDecisions software, including defining the goal, criteria, and alternatives."
+      },
+      {
+        "id": 13,
+        "question": "How to establish connections between different elements in an AHP hierarchy within SuperDecisions?"
+      },
+      {
+        "id": 14,
+        "question": "What are pairwise comparisons in AHP, and how are they conducted in SuperDecisions software?"
+      },
+      {
+        "id": 15,
+        "question": "What is the significance of the consistency ratio (CR) in AHP, and how is it addressed in SuperDecisions?"
+      },
+      {
+        "id": 16,
+        "question": "Explain the process of synthesizing an AHP model in SuperDecisions to obtain global priorities for alternatives."
+      },
+      {
+        "id": 17,
+        "question": "What are the considerations and benefits of using a ratings model in SuperDecisions compared to a pairwise comparison approach?"
+      },
+      {
+        "id": 18,
+        "question": "How to define and utilize rating scales in SuperDecisions when implementing a ratings model? "
+      },
+      {
+        "id": 19,
+        "question": "What are the different visualization options available in SuperDecisions for displaying sensitivity analysis results?"
+      },
+      {
+        "id": 20,
+        "question": "Describe the steps involved in connecting criteria and sub-criteria to alternatives in SuperDecisions, ensuring proper linkage in the hierarchy."
+      },
+      {
+        "id": 21,
+        "question": "How can the 'inconsistency report' feature in SuperDecisions be used to identify and rectify inconsistencies in pairwise comparison judgments? "
+      },
+      {
+        "id": 22,
+        "question": "How does the process of synthesizing a model with sub-criteria differ from synthesizing a model without sub-criteria in SuperDecisions?"
+      },
+      {
+        "id": 23,
+        "question": "When converting an AHP model to an ANP model, what new connections need to be added, and how do these connections reflect the concept of interdependence?"
+      }
+    ],
+    "type": "lecture"
+  },
+  "17": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=EDJqyU_hl1M",
+      "https://www.youtube.com/watch?v=zWj1WXn4rrg",
+      "https://www.youtube.com/watch?v=z5g_KcCZVco",
+      "https://www.youtube.com/watch?v=CbeYwlo-Fvc"
+    ],
+    "description": "decision-making-science",
+    "questions": [
+      {
+        "id": 0,
+        "question": "How does the Decision Lens software improve upon traditional AHP methods?"
+      },
+      {
+        "id": 1,
+        "question": "How has the definition of a 'powerful' company shifted from the 20th century to the 21st century?"
+      },
+      {
+        "id": 2,
+        "question": "How does the concept of 'trust' play a role in the decision to move from on-premise solutions to the cloud?"
+      },
+      {
+        "id": 3,
+        "question": "How does Microsoft's approach to data privacy differ in China, Germany, and the United States?"
+      },
+      {
+        "id": 4,
+        "question": "How does Decision Lens software address the challenge of planning in silos?"
+      },
+      {
+        "id": 5,
+        "question": "Describe how the concept of 'agility' can be interpreted differently by various stakeholders and why clear terminology is crucial in developing AHP models."
+      },
+      {
+        "id": 6,
+        "question": "How does the concept of 'disrupting the economics of an attack' help organizations prioritize security investments?"
+      },
+      {
+        "id": 7,
+        "question": "Describe how John Yokim's early experiences with computers at the University of Pittsburgh shaped his career trajectory."
+      },
+      {
+        "id": 8,
+        "question": "In the context of the shift from product-based to service-based models, how does the peloton example showcase the changing dynamics of customer engagement and value creation?"
+      },
+      {
+        "id": 9,
+        "question": "Illustrate how Decision Lens software helped the United Network for Organ Sharing (UNOS) make more equitable and effective organ allocation decisions."
+      },
+      {
+        "id": 10,
+        "question": "Explain how the Defense Health Agency balances the well-being of individual warfighters with the overall mission effectiveness of the Department of Defense when making resource allocation decisions."
+      },
+      {
+        "id": 11,
+        "question": "Discuss the criteria used by the National Park Service in prioritizing environmental cleanup projects."
+      },
+      {
+        "id": 12,
+        "question": "Illustrate how the '7Rs' framework presented by Gartner can guide decision-making for established companies considering technology upgrades or replacements."
+      },
+      {
+        "id": 13,
+        "question": "Describe how Decision Lens has been used by professional sports teams to improve player evaluation and selection, particularly in identifying and quantifying intangible attributes."
+      },
+      {
+        "id": 14,
+        "question": "How does Decision Lens software facilitate collaboration and consensus-building among stakeholders with diverse perspectives and priorities during the planning process?"
+      },
+      {
+        "id": 15,
+        "question": "Discuss the challenges of quantifying the value of security investments and how organizations can demonstrate the return on investment (ROI) for cybersecurity measures that prevent incidents rather than just respond to them."
+      },
+      {
+        "id": 16,
+        "question": "Explain Dan Menicucci's perspective on cybersecurity threats."
+      },
+      {
+        "id": 17,
+        "question": "Explain how the transition from episodic to continuous planning is changing the way organizations use tools like Decision Lens and the AHP. "
+      },
+      {
+        "id": 18,
+        "question": "Considering the example of the U.S. Navy, describe how a geopolitical event like the conflict in Ukraine can impact an organization's planning priorities and resource allocation."
+      },
+      {
+        "id": 19,
+        "question": "How does Decision Lens software address the challenges of planning in silos, and why is integrated planning critical for organizations like the U.S. Navy?"
+      },
+      {
+        "id": 20,
+        "question": "Describe the role of the Analytic Hierarchy Process (AHP) in helping organizations like the state of Washington make difficult resource allocation decisions, particularly in the context of emerging industries or policy changes."
+      },
+      {
+        "id": 21,
+        "question": "How did the United Network for Organ Sharing (UNOS) leverage the AHP and Decision Lens software to reduce the number of deaths on organ transplant waiting lists?"
+      },
+      {
+        "id": 22,
+        "question": "Explain the importance of considering post-transplant outcomes, such as patient survival rates and the avoidance of 'futile transplants', in organ allocation decisions."
+      },
+      {
+        "id": 23,
+        "question": "Describe how Decision Lens software enables organizations to perform resource optimization, taking into account both strategic value and cost constraints to identify the best mix of investments."
+      },
+      {
+        "id": 24,
+        "question": "Explain how the availability of advanced analytics and decision-making tools like Decision Lens is transforming scouting and player selection in professional sports."
+      },
+      {
+        "id": 25,
+        "question": "Discuss the impact of small differences in performance data, such as a tenth of a second in a 40-yard dash, on player evaluation and strategic decisions in professional sports."
+      }
+    ],
+    "type": "lecture"
+  },
+  "20": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=iBfQTnA2n2s",
+      "https://www.youtube.com/watch?v=yCIYS9fx56U",
+      "https://www.youtube.com/watch?v=2jKVx2vyZOY",
+      "https://www.youtube.com/watch?v=qZ0ImE41pVs",
+      "https://www.youtube.com/watch?v=mBhkD0iFf4w",
+      "https://www.youtube.com/watch?v=NIQDnWlwYyQ",
+      "https://www.youtube.com/watch?v=FcB97h3vrzk",
+      "https://www.youtube.com/watch?v=OzgNJJ2ErEE",
+      "https://www.youtube.com/watch?v=14leJ1fg4Pw",
+      "https://www.youtube.com/watch?v=LWa6OHeNK3s"
+    ],
+    "description": "12-days-of-openai",
+    "questions": [
+      {
+        "id": 0,
+        "question": "What advancements does OpenAI's o1 model offer compared to its predecessors?"
+      },
+      {
+        "id": 1,
+        "question": "How does OpenAI's Canvas tool enhance ChatGPT's capabilities?"
+      },
+      {
+        "id": 2,
+        "question": "How does the ChatGPT Pro tier enhance user experience and capabilities?"
+      },
+      {
+        "id": 3,
+        "question": "What are the future development plans for o1 and the ChatGPT platform?"
+      },
+      {
+        "id": 4,
+        "question": "Why is linking feedback to specific parts of writing challenging without Canvas?"
+      },
+      {
+        "id": 5,
+        "question": "Explain how code execution is made possible within Canvas."
+      },
+      {
+        "id": 6,
+        "question": "Evaluate the new features added to ChatGPT's search function."
+      },
+      {
+        "id": 7,
+        "question": "Describe the primary function and benefits of the 'Explore' feature in Sora."
+      },
+      {
+        "id": 8,
+        "question": "Explain the key reasons why video is an important development area for OpenAI"
+      },
+      {
+        "id": 9,
+        "question": "Compare and contrast the 'Remix' and 'Recut' editing tools within Sora."
+      },
+      {
+        "id": 10,
+        "question": "How does the concept of 'presets' enhance the creative process in Sora?"
+      },
+      {
+        "id": 11,
+        "question": "Detail the process of using the 'Storyboard' feature to direct a multi-action video."
+      },
+      {
+        "id": 12,
+        "question": "How does Sora facilitate the creation of looping videos?"
+      },
+      {
+        "id": 13,
+        "question": "Illustrate the process of using an image as the starting point for video generation in Sora."
+      },
+      {
+        "id": 14,
+        "question": "How does ChatGPT's knowledge of context benefit users when using the Search feature?"
+      },
+      {
+        "id": 15,
+        "question": "Explain the advantages of using ChatGPT Search as a default search engine in a web browser."
+      },
+      {
+        "id": 16,
+        "question": "Explain how the integration of search enhances the Advanced Voice Mode in ChatGPT."
+      },
+      {
+        "id": 17,
+        "question": "Describe the benefits of using Advanced Voice Mode compared to traditional text-based interactions with ChatGPT."
+      },
+      {
+        "id": 18,
+        "question": "How does the o1 model handle ambiguity in problem descriptions, such as unspecified parameters?"
+      },
+      {
+        "id": 19,
+        "question": "Compare the performance of o1, o1 Preview, and o1 Mini on the protein identification task described by Justin Ree."
+      },
+      {
+        "id": 20,
+        "question": "Explain the purpose and functionality of 'graders' in the context of reinforcement fine-tuning."
+      },
+      {
+        "id": 21,
+        "question": "Describe how Thompson Reuters utilized reinforcement fine-tuning to enhance their Co-Counsel AI tool."
+      },
+      {
+        "id": 22,
+        "question": "Why is the limited number of examples needed for reinforcement fine-tuning significant?"
+      },
+      {
+        "id": 23,
+        "question": "What new features are included in ChatGPT's iOS integration?"
+      },
+      {
+        "id": 24,
+        "question": "Describe the improvements to ChatGPT's search function."
+      },
+      {
+        "id": 25,
+        "question": "In what ways could the ability to adjust o1's reasoning effort benefit developers working with limited computational resources?"
+      },
+      {
+        "id": 26,
+        "question": "How might preference fine-tuning change the way developers approach customizing language models for specific applications?"
+      },
+      {
+        "id": 27,
+        "question": "What challenges might OpenAI face in expanding global access to advanced features while addressing ethical and regulatory concerns?"
+      },
+      {
+        "id": 28,
+        "question": "Describe the potential benefits of integrating WebRTC support into the Realtime API for developers creating real-time audio experiences."
+      },
+      {
+        "id": 29,
+        "question": "Discuss the implications of Sora's video generation capabilities for the future of content creation and storytelling."
+      },
+      {
+        "id": 30,
+        "question": "How might the introduction of 'storyboard' in Sora change the way users approach video creation and editing?"
+      },
+      {
+        "id": 31,
+        "question": "How might the reduced cost of audio tokens for GPT-4 and GPT-4 Mini in the Realtime API influence the adoption of voice-based AI applications?"
+      },
+      {
+        "id": 32,
+        "question": "Explain the role of 'blend' in Sora and its implications for combining different video elements to create unique visual experiences."
+      },
+      {
+        "id": 33,
+        "question": "Explain the benefits of using projects in ChatGPT for organizing conversations and incorporating external data sources."
+      },
+      {
+        "id": 34,
+        "question": "Discuss the role of community feedback and the 'explore' feature in Sora in shaping the future development and creative applications of the platform."
+      }
+    ],
+    "type": "lecture"
+  },
+  "21": {
+    "video_url": [
+      "https://www.youtube.com/watch?v=PUPO2tTyPOo",
+      "https://www.youtube.com/watch?v=vU2S6dVf79M",
+      "https://www.youtube.com/watch?v=10FCv-gCKug",
+      "https://www.youtube.com/watch?v=FHXmiAvloUg",
+      "https://www.youtube.com/watch?v=VJ6bK81meu8",
+      "https://www.youtube.com/watch?v=oAsJVZlDOgQ",
+      "https://www.youtube.com/watch?v=zdcCD--IieY",
+      "https://www.youtube.com/watch?v=f5Qr8xUeSH4",
+      "https://www.youtube.com/watch?v=-m7wHrOD1o8",
+      "https://www.youtube.com/watch?v=aJGdt9q7sS0"
+    ],
+    "description": "autogen",
+    "questions": [
+      {
+        "id": 0,
+        "question": "How does AutoGen manage diverse LLM configurations and agent types?"
+      },
+      {
+        "id": 1,
+        "question": "What are AutoGen's key capabilities beyond multi-agent frameworks?"
+      },
+      {
+        "id": 2,
+        "question": "How does AutoGen facilitate efficient caching and performance tuning?"
+      },
+      {
+        "id": 3,
+        "question": "How does AutoGen integrate with local LLMs and open-source models?"
+      },
+      {
+        "id": 4,
+        "question": "How does AutoGen enable complex LLM-based workflows using multi-agent conversations?"
+      },
+      {
+        "id": 5,
+        "question": "How can AutoGen agents be customized and allow human participation?"
+      },
+      {
+        "id": 6,
+        "question": "In what ways does AutoGen navigate the imperfect generation and reasoning abilities of LLMs?"
+      },
+      {
+        "id": 7,
+        "question": "How does AutoGen simplify and unify the implementation of complex LLM workflows?"
+      },
+      {
+        "id": 8,
+        "question": "Describe how AutoGen leverages a hierarchical agent setup to solve complex problems such as multi-agent coding scenarios or supply chain optimization."
+      },
+      {
+        "id": 9,
+        "question": "How can users access bots running in specific roles to obtain desired outputs?"
+      },
+      {
+        "id": 10,
+        "question": "What is the role of Beautiful Soup in web scraping?"
+      },
+      {
+        "id": 11,
+        "question": "Why is the ability to run AutoGen models locally or with open source models significant?"
+      },
+      {
+        "id": 12,
+        "question": "What are the key philosophies of AutoGen in simplifying complex workflows as automated agent chats?"
+      },
+      {
+        "id": 13,
+        "question": "How is the Amadeus flight server utilized in an AutoGen workflow?"
+      },
+      {
+        "id": 14,
+        "question": "How is data schema created and used in Neon within the context of an AutoGen workflow?"
+      },
+      {
+        "id": 15,
+        "question": "Explain the concept of text-to-SQL conversion within an AutoGen agent workflow."
+      },
+      {
+        "id": 16,
+        "question": "What are some challenges and considerations in orchestrating the behavior of multiple large language model-powered agents?"
+      },
+      {
+        "id": 17,
+        "question": "Describe the roles and responsibilities of different agents (User Proxy, Analyst, Senior Analyst) within an AutoGen workflow."
+      },
+      {
+        "id": 18,
+        "question": "How does the senior analyst agent achieve managerial oversight within an AutoGen workflow?"
+      },
+      {
+        "id": 19,
+        "question": "Explain the purpose and structure of the messages.py file within an AutoGen project."
+      },
+      {
+        "id": 20,
+        "question": "Explain how a user proxy agent functions within AutoGen."
+      },
+      {
+        "id": 21,
+        "question": "Describe the process of connecting MemGPT, AutoGen, and local LLMs using RunPods."
+      },
+      {
+        "id": 22,
+        "question": "Explain the significance of the 'context' parameter within LLM configurations in AutoGen."
+      },
+      {
+        "id": 23,
+        "question": "Describe the purpose of using a 'seed' value for caching in AutoGen."
+      },
+      {
+        "id": 24,
+        "question": "Explain the relationship between AutoGen, agent teams, and real-world use cases."
+      },
+      {
+        "id": 25,
+        "question": "How can the concept of 'flipping the script' be applied to understanding the evolution of AI agents?"
+      },
+      {
+        "id": 26,
+        "question": "Describe how one might create a simple snake game using AutoGen."
+      },
+      {
+        "id": 27,
+        "question": "How does AutoGen facilitate the testing and improvement of a basic snake game?"
+      },
+      {
+        "id": 28,
+        "question": "Explain the process of extracting facts and knowledge about a user from their past emails to improve AI assistant responses."
+      },
+      {
+        "id": 29,
+        "question": "How does one create a knowledge retrieval system for an AI assistant using past email data?"
+      },
+      {
+        "id": 30,
+        "question": "What is the role of lead qualification in an AI-powered email assistant, and how is it implemented?"
+      },
+      {
+        "id": 31,
+        "question": "Describe the procedure for using past email data to train a GPT model for improved email responses."
+      },
+      {
+        "id": 32,
+        "question": "What are the potential benefits of utilizing a multi-agent framework like AutoGen for cryptocurrency analysis?"
+      },
+      {
+        "id": 33,
+        "question": "Explain the process of integrating a MemGPT agent into an AutoGen framework for enhanced memory capabilities."
+      },
+      {
+        "id": 34,
+        "question": "How does the use of local LLMs potentially reduce the cost of running AI agents?"
+      },
+      {
+        "id": 35,
+        "question": "Describe the steps involved in setting up a local LLM environment using RunPods and Text Generation Web UI."
+      },
+      {
+        "id": 36,
+        "question": "Explain the significance of function calling capabilities in small open-source LLMs when used with AutoGen."
+      },
+      {
+        "id": 37,
+        "question": "Discuss the challenges faced when using small open-source LLMs with less than 13 billion parameters for multi-agent systems."
+      },
+      {
+        "id": 38,
+        "question": "Explain how prompt engineering techniques can be adapted for use in a multi-agent system like AutoGen."
+      },
+      {
+        "id": 39,
+        "question": "How can AutoGen be utilized to create a SaaS AI product, such as a customer survey application?"
+      },
+      {
+        "id": 40,
+        "question": "What are the advantages of AutoGen's design philosophy?"
+      },
+      {
+        "id": 41,
+        "question": "How is AutoGen's caching mechanism implemented?"
+      },
+      {
+        "id": 42,
+        "question": "Describe AutoGen's use in building a SaaS product."
+      },
+      {
+        "id": 43,
+        "question": "Explain the differences in prompting strategies when designing agents for tasks such as code generation versus creative writing in AutoGen."
+      }
+    ],
+    "type": "lecture"
+  }
+}

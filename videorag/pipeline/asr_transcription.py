@@ -33,6 +33,9 @@ def transcribe_video_to_derived(
     formatted_path = out_dir / "transcript_segments.json"
     raw_path = out_dir / "transcript_raw.txt"
 
+    print(f"[ASR] Loading model: {model_name}")
+    print("[ASR] Backend: mlx_whisper")
+
     result = cast(
         dict[str, Any],
         mlx_whisper.transcribe(
@@ -73,4 +76,3 @@ def transcribe_video_to_derived(
     raw_path.write_text("\n".join(raw_lines) + "\n", encoding="utf-8")
 
     return formatted_path, raw_path
-

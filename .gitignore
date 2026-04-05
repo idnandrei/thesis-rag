@@ -6,11 +6,25 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Virtual environments / local env
+.venv/
 .env
-# Data (DO NOT COMMIT)
-data/
 
-
+# OS files
 .DS_Store
+
+# Generated project outputs
+data/derived/
+data/logs
+data/registry.json
+
+# Ignore actual dataset video files, but keep dataset metadata/code
+dataset/**/videos/
+dataset/**/*.mp4
+dataset/**/*.mkv
+dataset/**/*.webm
+dataset/**/*.avi
+dataset/**/*.mov
+
+# Optional: common local notebook artifacts
+.ipynb_checkpoints/
